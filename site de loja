@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FSN - Loja de Tecnologia</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #111; color: white; padding: 20px; text-align: center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; }
+    section { padding: 30px; }
+    h2 { color: #333; }
+    .produto { display: inline-block; width: 200px; margin: 15px; text-align: center; }
+    .produto img { width: 100%; height: auto; }
+    form input, form button { display: block; margin: 10px 0; padding: 10px; width: 100%; max-width: 400px; }
+    footer { background-color: #111; color: white; text-align: center; padding: 15px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FSN</h1>
+    <nav>
+      <a href="#quem-somos">Quem Somos</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#trabalhe-conosco">Trabalhe Conosco</a>
+      <a href="#comprar">Comprar</a>
+    </nav>
+  </header>
+
+  <section id="quem-somos">
+    <h2>Quem Somos</h2>
+    <p><strong>Tecnologia que conecta você ao futuro.</strong></p>
+    <p>A FSN é uma empresa dedicada à venda de produtos tecnológicos de alta qualidade, como computadores, notebooks e muito mais.</p>
+  </section>
+
+  <section id="produtos">
+    <h2>Produtos</h2>
+    <div class="produto">
+      <img src="https://via.placeholder.com/200x150" alt="Notebook Lenovo">
+      <p>Notebook Lenovo X1 Carbon</p>
+    </div>
+    <div class="produto">
+      <img src="https://via.placeholder.com/200x150" alt="Computador Gamer">
+      <p>Computador Gamer Ryzen 7</p>
+    </div>
+    <div class="produto">
+      <img src="https://via.placeholder.com/200x150" alt="Fone JBL">
+      <p>Fone Bluetooth JBL</p>
+    </div>
+  </section>
+
+  <section id="trabalhe-conosco">
+    <h2>Trabalhe Conosco</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <input type="file" required>
+      <input type="text" placeholder="Mensagem">
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section id="comprar">
+    <h2>Finalizar Compra</h2>
+    <form>
+      <input type="text" placeholder="Nome no cartão" required>
+      <input type="text" placeholder="Número do cartão" required>
+      <input type="text" placeholder="Validade (MM/AA)" required>
+      <input type="text" placeholder="CVV" required>
+      <input type="text" placeholder="Endereço de entrega" required>
+      <button type="submit">Confirmar Pedido</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>FSN &copy; 2025 - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
